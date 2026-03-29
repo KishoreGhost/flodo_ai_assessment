@@ -1,0 +1,62 @@
+# ── Python / Backend ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+*.pyc
+
+# SQLite database
+*.db
+*.sqlite3
+
+# dotenv
+backend/.env
+
+# ── Flutter / Frontend ────────────────────────────────────────────
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/pubspec.lock
+frontend/.env
+
+# Generated files
+frontend/lib/**.g.dart
+frontend/lib/**.freezed.dart
+
+# Android
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/captures/
+frontend/android/app/debug/
+frontend/android/app/profile/
+frontend/android/app/release/
+*.keystore
+*.jks
+
+# iOS
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/App.framework/
+frontend/ios/Flutter/Flutter.framework/
+frontend/ios/Runner.xcworkspace/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db

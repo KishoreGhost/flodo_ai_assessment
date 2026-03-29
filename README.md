@@ -127,6 +127,8 @@ flutter run
 
 ## AI Usage Report
 
+> 💡 **For a complete breakdown of the prompting strategy and the workflow used to build this full-stack project, please read [`workflow.md`](./workflow.md).**
+
 ### Most helpful prompts
 
 1. *"Design a FastAPI + SQLAlchemy project for a Task model with a self-referential 'blocked_by' foreign key, position-based drag-and-drop, and async CRUD operations with a 2-second simulated delay."*  
@@ -137,12 +139,6 @@ flutter run
 
 3. *"Implement a debounced search TextField in Flutter that waits 300ms after the user stops typing, then highlights matching substrings in a RichText widget."*  
    → Clean `Timer`-based debounce + `TextSpan` highlight logic.
-
-### AI mistakes encountered
-
-> *(To be updated during development)*
-
----
 
 ## Commit History Convention
 

@@ -1,0 +1,20 @@
+Analyzing frontend...                                           
+
+warning - Unused import: 'package:intl/intl.dart' - lib\models\task_model.dart:1:8 - unused_import
+warning - The receiver can't be null, so the null-aware operator '?.' is unnecessary - lib\screens\home_screen.dart:260:59 - invalid_null_aware_operator
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:323:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\sidebar.dart:71:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\sidebar.dart:143:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\sidebar.dart:152:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\sidebar.dart:164:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\sidebar.dart:170:41 - deprecated_member_use
+warning - The declaration '_statusColor' isn't referenced - lib\widgets\task_card.dart:25:13 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\task_card.dart:103:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\task_card.dart:227:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\task_card.dart:229:41 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\widgets\task_form.dart:272:33 - curly_braces_in_flow_control_structures
+   info - Can't use a relative path to import a library in 'lib' - test\widget_test.dart:3:8 - avoid_relative_lib_imports
+  error - The function 'testWidgets' isn't defined - test\widget_test.dart:6:3 - undefined_function
+  error - Undefined class 'WidgetTester' - test\widget_test.dart:6:34 - undefined_class
+
+16 issues found. (ran in 2.5s)

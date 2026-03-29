@@ -41,9 +41,30 @@ flodo_ai_assessment/
 
 ---
 
-## Setup & Running
+## Setup & Running 🚀
 
-### Backend
+The easiest way to run the entire stack locally without installing Python or Flutter SDKs is to use Docker Compose.
+
+### Running with Docker (Recommended)
+
+Ensure you have [Docker](https://www.docker.com/) installed, then run from the project root:
+
+```bash
+docker compose up --build -d
+```
+
+That's it! 
+- **Flodo Web App**: Access it at [http://localhost](http://localhost)
+- **Backend API**: Running at `http://localhost:8000`
+- **API Docs**: Interactive Swagger UI at `http://localhost:8000/docs`
+
+*(The database uses a persistent local volume so your tasks won't disappear on container restart).*
+
+---
+
+### Manual Setup (Without Docker)
+
+#### Backend
 
 ```bash
 cd backend
